@@ -15,3 +15,8 @@ Graphene Oxide sheet models (GAFF2-AIM) in GROMACS format
 - amber99sb-ildn.ff-modified/ is the amber99sb-ildn force field in GROMACS format, modified with GO sheet parameters (taken from https://www.bio2byte.be/acpype/)<br>
 
 Note: Since these structures are periodic in the XY plane, they are meant to be used with the "periodic-molecules = yes" option in the *.mdp file of GROMACS.
+
+<h1 align="center">
+Don't forget to cite ;)
+</h1><br>
+Pinto, A.V. et al. (2022) “Development of Nanoscale Graphene Oxide Models for the Adsorption of Biological Molecules” The Journal of Physical Chemistry B. Soon available at: https://doi.org/10.1021/acs.jpcb.2c03837. 
