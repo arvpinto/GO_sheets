@@ -20,3 +20,20 @@ Note: Since these structures are periodic in the XY plane, they are meant to be 
 Don't forget to cite ;)
 </h1><br>
 Pinto, A.V. et al. (2022) “Development of Nanoscale Graphene Oxide Models for the Adsorption of Biological Molecules” The Journal of Physical Chemistry B. Available soon at: https://doi.org/10.1021/acs.jpcb.2c06037. 
+
+Additional files can be found at the following repositories:
+
+GO_18, files from linear-scaling DFT and non-bonded parameters calculations
+https://zenodo.org/record/7323314#.Y7w_Q9LP1AM
+GO_20, files from linear-scaling DFT and non-bonded parameters calculations
+https://zenodo.org/record/7323388#.Y7w_sdLP1AM
+GO_22, files from linear-scaling DFT and non-bonded parameters calculations
+https://zenodo.org/record/7323436#.Y7w_zdLP1AM
+GO_24, files from linear-scaling DFT and non-bonded parameters calculations
+https://zenodo.org/record/7323444#.Y7w_5tLP1AM
+GO_26, files from linear-scaling DFT and non-bonded parameters calculations
+https://zenodo.org/record/7323454#.Y7w__dLP1AM
+GO_28, files from linear-scaling DFT and non-bonded parameters calculations
+https://zenodo.org/record/7323465#.Y7xAJNLP1AM
+GO_30, files from linear-scaling DFT and non-bonded parameters calculations
+https://zenodo.org/record/7323484#.Y7xAOtLP1AM
