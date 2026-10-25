@@ -1,0 +1,32 @@
+title: Graphene oxide sheet models (GAFF2-AIM)
+description: Seven periodic graphene oxide sheets with C/O ratios from 1.8 to 3.0, parameterized with GAFF2-AIM and ready to use in GROMACS.
+author: Alexandre V. Pinto
+lang: en
+image: /assets/img/go_sheet.jpg
+
+# Shown at the top of the page. "hero" is the image next to the title.
+topic: Models and data
+topic_color: "#65cbf3"
+tools: [GROMACS, CP2K, Chargemol]
+hero:
+  src: /assets/img/go_sheet.webp
+  width: 614
+  height: 750
+  framed: true          # the image has a white background, so it gets rounded corners
+  alt: Graphene oxide sheet in water with a small molecule adsorbed on its surface and ions above it
+primary_action:
+  label: Download all models (zip)
+  url: https://github.com/arvpinto/GO_sheets/archive/refs/heads/main.zip
+
+# A single page, not part of a series: no "sections" list and no previous / next links.
+
+# Main site (CompBioChem Tutorials) and this repository.
+home_url: https://arvpinto.github.io/
+repo_url: https://github.com/arvpinto/GO_sheets
+
+# The page uses its own layout and stylesheet (no remote theme), matching the main site.
+# index.md is the web page; README.md stays as the description shown on GitHub.
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - README.md
