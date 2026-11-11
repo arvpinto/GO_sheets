@@ -4,7 +4,8 @@ author: Alexandre V. Pinto
 lang: en
 image: /assets/img/go_sheet.jpg
 
-# Shown at the top of the page. "hero" is the image next to the title.
+# Shown at the top of the page. "hero" is the image next to the title. The topic name and colour are the ones this
+# entry has on the home page (arvpinto.github.io, _data/categories.yml).
 topic: Models and data
 topic_color: "#65cbf3"
 tools: [GROMACS, CP2K, Chargemol]
@@ -20,11 +21,23 @@ primary_action:
 
 # A single page, not part of a series: no "sections" list and no previous / next links.
 
-# Main site (CompBioChem Tutorials) and this repository.
+# Home page (the menu bar links to its Portfolio and About sections) and this repository.
 home_url: https://arvpinto.github.io/
+home_label: Portfolio
 repo_url: https://github.com/arvpinto/GO_sheets
 
-# The page uses its own layout and stylesheet (no remote theme), matching the main site.
+# Name and affiliation shown under the title (same lines as on the home page).
+author_degree: PhD in Chemistry
+affiliation:
+  - High Performance Computing in Molecular Modelling Research Group, LAQV-REQUIMTE
+  - Department of Chemistry and Biochemistry, Faculty of Sciences, University of Porto
+
+# Licence named in the footer (the LICENSE file of the repository).
+license:
+  name: GNU GPL v3.0
+  url: https://github.com/arvpinto/GO_sheets/blob/main/LICENSE
+
+# The page uses its own layout and stylesheet (no remote theme), matching the home page.
 # index.md is the web page; README.md stays as the description shown on GitHub.
 plugins:
   - jekyll-seo-tag
