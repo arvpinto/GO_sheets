@@ -1,0 +1,46 @@
+title: Graphene oxide sheet models (GAFF2-AIM)
+description: Seven periodic graphene oxide sheets with C/O ratios from 1.8 to 3.0, parameterized with GAFF2-AIM and ready to use in GROMACS.
+author: Alexandre V. Pinto
+lang: en
+image: /assets/img/go_sheet.jpg
+
+# Shown at the top of the page. "hero" is the image next to the title. The topic name and colour are the ones this
+# entry has on the home page (arvpinto.github.io, _data/categories.yml).
+topic: Models and data
+topic_color: "#65cbf3"
+tools: [GROMACS, CP2K, Chargemol]
+hero:
+  fig: go-sheets           # animated figure (assets/js/card-figures.js, data in assets/data/cards/)
+  src: /assets/img/hero-fig.webp
+  src_light: /assets/img/hero-fig-light.webp
+  width: 1120
+  height: 700
+  alt: Rippling graphene oxide sheet in matte grey with a neon glow where an aromatic molecule lies flat on its surface, 3.5 angstrom above it
+primary_action:
+  label: Download all models (zip)
+  url: https://github.com/arvpinto/GO_sheets/archive/refs/heads/main.zip
+
+# A single page, not part of a series: no "sections" list and no previous / next links.
+
+# Home page (the menu bar links to its Portfolio and About sections) and this repository.
+home_url: https://arvpinto.github.io/
+home_label: Portfolio
+repo_url: https://github.com/arvpinto/GO_sheets
+
+# Name and affiliation shown under the title (same lines as on the home page).
+author_degree: PhD in Chemistry
+affiliation:
+  - High Performance Computing in Molecular Modelling Research Group, LAQV-REQUIMTE
+  - Department of Chemistry and Biochemistry, Faculty of Sciences, University of Porto
+
+# Licence named in the footer (the LICENSE file of the repository).
+license:
+  name: GNU GPL v3.0
+  url: https://github.com/arvpinto/GO_sheets/blob/main/LICENSE
+
+# The page uses its own layout and stylesheet (no remote theme), matching the home page.
+# index.md is the web page; README.md stays as the description shown on GitHub.
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - README.md
